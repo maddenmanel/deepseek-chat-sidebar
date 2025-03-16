@@ -1,25 +1,25 @@
-// 导入模块
+// Import modules
 import DeepSeekAPI from './lib/api.js';
 import MarkdownFormatter from './lib/markdown.js';
 import ChatUIManager from './lib/ui.js';
 import Config from './lib/config.js';
 
 /**
- * 应用程序初始化
+ * Application initialization
  */
 function initApp() {
-    // 创建API实例
+    // Create API instance
     const api = new DeepSeekAPI();
     
-    // 创建Markdown格式化器
+    // Create Markdown formatter
     const markdown = new MarkdownFormatter();
     
-    // 创建并初始化UI管理器
+    // Create and initialize UI manager
     const ui = new ChatUIManager(api, markdown);
     
-    // 记录应用程序已初始化
-    console.log('DeepSeek Chat Sidebar已初始化');
+    // Log that the application has been initialized
+    console.log('DeepSeek Chat Sidebar initialized');
 }
 
-// 启动应用
+// Start the application
 initApp();

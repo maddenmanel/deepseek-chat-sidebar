@@ -1,30 +1,30 @@
 # DeepSeek Chat Sidebar Chrome Extension
 
-这是一个Chrome浏览器扩展，提供侧边栏聊天功能，集成了DeepSeek API进行AI对话。
+This is a Chrome browser extension that provides a sidebar chat functionality, integrating the DeepSeek API for AI conversations.
 
-## 功能特点
+## Features
 
-- 侧边栏界面设计
-- 与DeepSeek API实时对话
-- 简洁现代的用户界面
-- 支持API密钥安全存储
+- Sidebar interface design
+- Real-time conversations with DeepSeek API
+- Clean and modern user interface
+- Secure storage for API keys
 
-## 安装步骤
+## Installation Steps
 
-1. 打开Chrome浏览器，访问 `chrome://extensions/`
-2. 开启右上角的"开发者模式"
-3. 点击"加载已解压的扩展程序"
-4. 选择本扩展的文件夹
+1. Open Chrome browser and navigate to `chrome://extensions/`
+2. Enable "Developer Mode" in the top right corner
+3. Click "Load unpacked extension"
+4. Select this extension's folder
 
-## 使用方法
+## Usage Instructions
 
-1. 安装后，在Chrome工具栏中点击扩展图标打开侧边栏
-2. 首次使用时，需要输入DeepSeek API密钥
-3. 在输入框中输入消息，按发送按钮或回车键发送
-4. 等待AI回复
+1. After installation, click the extension icon in the Chrome toolbar to open the sidebar
+2. On first use, you'll need to enter your DeepSeek API key
+3. Type your message in the input box and press the send button or Enter key to send
+4. Wait for the AI response
 
-## 注意事项
+## Notes
 
-- 请确保您有有效的DeepSeek API密钥
-- API密钥将安全存储在Chrome的同步存储中
-- 使用Shift+Enter可以在消息框中换行
+- Please ensure you have a valid DeepSeek API key
+- API keys are securely stored in Chrome's sync storage
+- Use Shift+Enter to create a new line in the message box
